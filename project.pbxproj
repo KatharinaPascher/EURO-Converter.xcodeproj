@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C25C110B1ADA930900A078ED /* WhatsApp_Hintergrund_2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C25C110A1ADA930900A078ED /* WhatsApp_Hintergrund_2.jpeg */; };
+		C28DF8371AD55C0F0079526A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C28DF8361AD55C0F0079526A /* main.m */; };
+		C28DF83A1AD55C0F0079526A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C28DF8391AD55C0F0079526A /* AppDelegate.m */; };
+		C28DF83D1AD55C0F0079526A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C28DF83C1AD55C0F0079526A /* ViewController.m */; };
+		C28DF8401AD55C0F0079526A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28DF83E1AD55C0F0079526A /* Main.storyboard */; };
+		C28DF8421AD55C0F0079526A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28DF8411AD55C0F0079526A /* Images.xcassets */; };
+		C28DF8451AD55C0F0079526A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C28DF8431AD55C0F0079526A /* LaunchScreen.xib */; };
+		C28DF8511AD55C0F0079526A /* EURO_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C28DF8501AD55C0F0079526A /* EURO_ConverterTests.m */; };
+		C28DF85B1AD55E390079526A /* 1194984775760075334button-green_benji_park_01.svg.hi.png in Resources */ = {isa = PBXBuildFile; fileRef = C28DF85A1AD55E390079526A /* 1194984775760075334button-green_benji_park_01.svg.hi.png */; };
+		C28DF85D1AD561C60079526A /* waerungen.plist in Resources */ = {isa = PBXBuildFile; fileRef = C28DF85C1AD561C60079526A /* waerungen.plist */; };
+		C2E0EA681AD5AD1A00A3E402 /* Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E0EA671AD5AD1A00A3E402 /* Currency.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C28DF84B1AD55C0F0079526A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C28DF8291AD55C0F0079526A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28DF8301AD55C0F0079526A;
+			remoteInfo = "EURO Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C25C110A1ADA930900A078ED /* WhatsApp_Hintergrund_2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WhatsApp_Hintergrund_2.jpeg; sourceTree = "<group>"; };
+		C28DF8311AD55C0F0079526A /* EURO Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EURO Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28DF8351AD55C0F0079526A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28DF8361AD55C0F0079526A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C28DF8381AD55C0F0079526A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C28DF8391AD55C0F0079526A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C28DF83B1AD55C0F0079526A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C28DF83C1AD55C0F0079526A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C28DF83F1AD55C0F0079526A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C28DF8411AD55C0F0079526A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C28DF8441AD55C0F0079526A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C28DF84A1AD55C0F0079526A /* EURO ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EURO ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28DF84F1AD55C0F0079526A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28DF8501AD55C0F0079526A /* EURO_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EURO_ConverterTests.m; sourceTree = "<group>"; };
+		C28DF85A1AD55E390079526A /* 1194984775760075334button-green_benji_park_01.svg.hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1194984775760075334button-green_benji_park_01.svg.hi.png"; sourceTree = "<group>"; };
+		C28DF85C1AD561C60079526A /* waerungen.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = waerungen.plist; sourceTree = "<group>"; };
+		C2E0EA661AD5AD1A00A3E402 /* Currency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Currency.h; sourceTree = "<group>"; };
+		C2E0EA671AD5AD1A00A3E402 /* Currency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Currency.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C28DF82E1AD55C0F0079526A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28DF8471AD55C0F0079526A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C28DF8281AD55C0F0079526A = {
+			isa = PBXGroup;
+			children = (
+				C28DF8331AD55C0F0079526A /* EURO Converter */,
+				C28DF84D1AD55C0F0079526A /* EURO ConverterTests */,
+				C28DF8321AD55C0F0079526A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C28DF8321AD55C0F0079526A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C28DF8311AD55C0F0079526A /* EURO Converter.app */,
+				C28DF84A1AD55C0F0079526A /* EURO ConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C28DF8331AD55C0F0079526A /* EURO Converter */ = {
+			isa = PBXGroup;
+			children = (
+				C25C110A1ADA930900A078ED /* WhatsApp_Hintergrund_2.jpeg */,
+				C28DF85A1AD55E390079526A /* 1194984775760075334button-green_benji_park_01.svg.hi.png */,
+				C28DF8381AD55C0F0079526A /* AppDelegate.h */,
+				C28DF8391AD55C0F0079526A /* AppDelegate.m */,
+				C28DF83B1AD55C0F0079526A /* ViewController.h */,
+				C28DF83C1AD55C0F0079526A /* ViewController.m */,
+				C28DF83E1AD55C0F0079526A /* Main.storyboard */,
+				C28DF85C1AD561C60079526A /* waerungen.plist */,
+				C28DF8411AD55C0F0079526A /* Images.xcassets */,
+				C28DF8431AD55C0F0079526A /* LaunchScreen.xib */,
+				C28DF8341AD55C0F0079526A /* Supporting Files */,
+				C2E0EA661AD5AD1A00A3E402 /* Currency.h */,
+				C2E0EA671AD5AD1A00A3E402 /* Currency.m */,
+			);
+			path = "EURO Converter";
+			sourceTree = "<group>";
+		};
+		C28DF8341AD55C0F0079526A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C28DF8351AD55C0F0079526A /* Info.plist */,
+				C28DF8361AD55C0F0079526A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C28DF84D1AD55C0F0079526A /* EURO ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C28DF8501AD55C0F0079526A /* EURO_ConverterTests.m */,
+				C28DF84E1AD55C0F0079526A /* Supporting Files */,
+			);
+			path = "EURO ConverterTests";
+			sourceTree = "<group>";
+		};
+		C28DF84E1AD55C0F0079526A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C28DF84F1AD55C0F0079526A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C28DF8301AD55C0F0079526A /* EURO Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28DF8541AD55C0F0079526A /* Build configuration list for PBXNativeTarget "EURO Converter" */;
+			buildPhases = (
+				C28DF82D1AD55C0F0079526A /* Sources */,
+				C28DF82E1AD55C0F0079526A /* Frameworks */,
+				C28DF82F1AD55C0F0079526A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EURO Converter";
+			productName = "EURO Converter";
+			productReference = C28DF8311AD55C0F0079526A /* EURO Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C28DF8491AD55C0F0079526A /* EURO ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28DF8571AD55C0F0079526A /* Build configuration list for PBXNativeTarget "EURO ConverterTests" */;
+			buildPhases = (
+				C28DF8461AD55C0F0079526A /* Sources */,
+				C28DF8471AD55C0F0079526A /* Frameworks */,
+				C28DF8481AD55C0F0079526A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C28DF84C1AD55C0F0079526A /* PBXTargetDependency */,
+			);
+			name = "EURO ConverterTests";
+			productName = "EURO ConverterTests";
+			productReference = C28DF84A1AD55C0F0079526A /* EURO ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C28DF8291AD55C0F0079526A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Katharina Pascher";
+				TargetAttributes = {
+					C28DF8301AD55C0F0079526A = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C28DF8491AD55C0F0079526A = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C28DF8301AD55C0F0079526A;
+					};
+				};
+			};
+			buildConfigurationList = C28DF82C1AD55C0F0079526A /* Build configuration list for PBXProject "EURO Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C28DF8281AD55C0F0079526A;
+			productRefGroup = C28DF8321AD55C0F0079526A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C28DF8301AD55C0F0079526A /* EURO Converter */,
+				C28DF8491AD55C0F0079526A /* EURO ConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C28DF82F1AD55C0F0079526A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28DF85B1AD55E390079526A /* 1194984775760075334button-green_benji_park_01.svg.hi.png in Resources */,
+				C28DF8401AD55C0F0079526A /* Main.storyboard in Resources */,
+				C28DF8451AD55C0F0079526A /* LaunchScreen.xib in Resources */,
+				C25C110B1ADA930900A078ED /* WhatsApp_Hintergrund_2.jpeg in Resources */,
+				C28DF85D1AD561C60079526A /* waerungen.plist in Resources */,
+				C28DF8421AD55C0F0079526A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28DF8481AD55C0F0079526A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C28DF82D1AD55C0F0079526A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E0EA681AD5AD1A00A3E402 /* Currency.m in Sources */,
+				C28DF83D1AD55C0F0079526A /* ViewController.m in Sources */,
+				C28DF83A1AD55C0F0079526A /* AppDelegate.m in Sources */,
+				C28DF8371AD55C0F0079526A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28DF8461AD55C0F0079526A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28DF8511AD55C0F0079526A /* EURO_ConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C28DF84C1AD55C0F0079526A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C28DF8301AD55C0F0079526A /* EURO Converter */;
+			targetProxy = C28DF84B1AD55C0F0079526A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C28DF83E1AD55C0F0079526A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C28DF83F1AD55C0F0079526A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C28DF8431AD55C0F0079526A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C28DF8441AD55C0F0079526A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C28DF8521AD55C0F0079526A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C28DF8531AD55C0F0079526A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C28DF8551AD55C0F0079526A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "EURO Converter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C28DF8561AD55C0F0079526A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "EURO Converter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C28DF8581AD55C0F0079526A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EURO ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EURO Converter.app/EURO Converter";
+			};
+			name = Debug;
+		};
+		C28DF8591AD55C0F0079526A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EURO ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EURO Converter.app/EURO Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C28DF82C1AD55C0F0079526A /* Build configuration list for PBXProject "EURO Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28DF8521AD55C0F0079526A /* Debug */,
+				C28DF8531AD55C0F0079526A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28DF8541AD55C0F0079526A /* Build configuration list for PBXNativeTarget "EURO Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28DF8551AD55C0F0079526A /* Debug */,
+				C28DF8561AD55C0F0079526A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28DF8571AD55C0F0079526A /* Build configuration list for PBXNativeTarget "EURO ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28DF8581AD55C0F0079526A /* Debug */,
+				C28DF8591AD55C0F0079526A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C28DF8291AD55C0F0079526A /* Project object */;
+}
